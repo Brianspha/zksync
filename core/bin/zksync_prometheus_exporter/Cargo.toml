@@ -18,7 +18,7 @@ zksync_config = { path = "../../lib/config", version = "1.0" }
 log = "0.4"
 env_logger = "0.6"
 
-tokio = { version = "0.2", features = ["full"] }
+tokio = { version = "1.8", features = ["full"] }
 futures = "0.3"
 ctrlc = { version = "3.1", features = ["termination"] }
 anyhow = "1.0"
