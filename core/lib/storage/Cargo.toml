@@ -40,4 +40,4 @@ zksync_config = { path = "../config", version = "1.0" }
 db_test_macro = { path = "./db_test_macro" }
 
 env_logger = "0.6"
-tokio = { version = "0.2", features = ["full"] }
+tokio = { version = "1.18", features = ["full"] }
